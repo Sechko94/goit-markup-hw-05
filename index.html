@@ -23,9 +23,15 @@
     <header class="header">
       <div class="container header-container">
         <nav class="header-nav">
+
           <!-- LOGO -->
+
           <a class="logo" href="./index.html"><span>web</span>studio</a>
-          <!-- NAVIGATION-->
+
+
+          <!-- ===============================NAVIGATION==================================-->
+
+
           <ul class="site-nav">
             <li class="site-nav-link">
               <a href="./index.html" class="link current">Studio</a>
@@ -51,16 +57,16 @@
       </div>
     </header>
     <main>
-      <!-- HERO -->
+      <!-- ======================================HERO================================================ -->
 
       <section class="section hero">
         <div class="container container-hero">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="hero-button" type="button">Order Service</button>
+          <button class="hero-button" type="button" data-modal-open>Order Service</button>
         </div>
       </section>
 
-      <!-- ADVANTAGES -->
+      <!-- ======================================ADVANTAGES======================================= -->
       <section class="section advantages">
         <h2 class="visually-hidden">Our advantages</h2>
         <div class="container container-advantages">
@@ -133,7 +139,7 @@
         </div>
       </section>
 
-      <!-- OFFER  -->
+      <!-- ===================================OFFER==============================================  -->
 
       <section class="section offer">
         <div class="container container-offer">
@@ -167,7 +173,7 @@
         </div>
       </section>
 
-      <!-- TEAM -->
+      <!-- ==================================TEAM====================================== -->
 
       <section class="section team">
         <div class="container container-team">
@@ -302,7 +308,7 @@
               <p class="profession">UI Designer</p>
               <ul class="social-networks-list">
                 <li class="social-network-item">
-                  <a class="social-network-link" href="">
+                  <a class="social-network-link" href="https://www.instagram.com/">
                     <svg class="social-network-icon">
                       <use href="./images/icons.svg#icon-instagram"></use></svg
                   ></a>
@@ -334,7 +340,7 @@
         </div>
       </section>
 
-      <!-- CUSTOMERS -->
+      <!--==================================== CUSTOMERS============================= -->
 
       <section class="section client-section">
         <div class="container container-clients">
@@ -386,7 +392,7 @@
       </section>
     </main>
 
-    <!-- FOOTER -->
+    <!-- =================================FOOTER================================ -->
 
     <footer class="footer">
       <div class="container container-footer">
@@ -434,6 +440,19 @@
       </div>
     </footer>
 
-   
+
+ <!-=======================MODAL===========================  -->
+
+  
+   <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <button type="button" class="modal-btn-close" data-modal-close>
+<svg class="icon-modal-close" width="8" height="8">
+  <use href="./images/icons.svg#icon-modalclose"></use>
+</svg>
+      </button>
+    </div>
+   </div>
+   <script src="/js/modal.js"></script>
   </body>
 </html>
